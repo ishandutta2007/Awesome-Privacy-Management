@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%" style="border-radius: 12px; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d"/>
+      <stop offset="50%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#050814"/>
+    </linearGradient>
+
+    <!-- Glowing Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1">
+        <animate attributeName="stop-color" values="#6366f1; #38bdf8; #818cf8; #a855f7; #6366f1" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#06b6d4">
+        <animate attributeName="stop-color" values="#06b6d4; #818cf8; #ec4899; #06b6d4" dur="8s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#10b981">
+        <animate attributeName="stop-color" values="#10b981; #6366f1; #38bdf8; #10b981" dur="8s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Shield Glow Gradient -->
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#6366f1" stop-opacity="0.2"/>
+    </linearGradient>
+
+    <!-- Radar Pulse Effect Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      @keyframes float {
+        0%, 100% { transform: translateY(0px) rotate(0deg); }
+        50% { transform: translateY(-8px) rotate(1deg); }
+      }
+      @keyframes dataFlow {
+        0% { stroke-dashoffset: 100; }
+        100% { stroke-dashoffset: 0; }
+      }
+      @keyframes shimmer {
+        0% { opacity: 0.3; }
+        50% { opacity: 0.9; }
+        100% { opacity: 0.3; }
+      }
+      .floating-shield {
+        animation: float 5s ease-in-out infinite;
+        transform-origin: center;
+      }
+      .shimmer-text {
+        animation: shimmer 4s ease-in-out infinite;
+      }
+      .grid-line {
+        stroke: rgba(99, 102, 241, 0.08);
+        stroke-width: 1;
+      }
+      .circuit-line {
+        stroke: url(#accentGrad);
+        stroke-width: 1.5;
+        stroke-dasharray: 6, 6;
+        animation: dataFlow 20s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="1200" height="360" fill="url(#bgGradient)"/>
+
+  <!-- Cyber Grid Lines -->
+  <g class="grid">
+    <line x1="0" y1="60" x2="1200" y2="60" class="grid-line"/>
+    <line x1="0" y1="120" x2="1200" y2="120" class="grid-line"/>
+    <line x1="0" y1="180" x2="1200" y2="180" class="grid-line"/>
+    <line x1="0" y1="240" x2="1200" y2="240" class="grid-line"/>
+    <line x1="0" y1="300" x2="1200" y2="300" class="grid-line"/>
+    <line x1="150" y1="0" x2="150" y2="360" class="grid-line"/>
+    <line x1="300" y1="0" x2="300" y2="360" class="grid-line"/>
+    <line x1="450" y1="0" x2="450" y2="360" class="grid-line"/>
+    <line x1="600" y1="0" x2="600" y2="360" class="grid-line"/>
+    <line x1="750" y1="0" x2="750" y2="360" class="grid-line"/>
+    <line x1="900" y1="0" x2="900" y2="360" class="grid-line"/>
+    <line x1="1050" y1="0" x2="1050" y2="360" class="grid-line"/>
+  </g>
+
+  <!-- Dynamic Circuit / Network Connectors -->
+  <path d="M 100 180 Q 250 80 400 180 T 700 180" fill="none" class="circuit-line" opacity="0.4"/>
+  <path d="M 800 240 Q 950 320 1100 200" fill="none" class="circuit-line" opacity="0.3"/>
+  <path d="M 200 300 C 400 340, 600 280, 800 320" fill="none" class="circuit-line" opacity="0.25"/>
+
+  <!-- Left Side Glowing Constellation / Nodes -->
+  <circle cx="120" cy="100" r="3" fill="#38bdf8" filter="url(#glow)"/>
+  <circle cx="280" cy="80" r="4" fill="#818cf8" filter="url(#glow)"/>
+  <circle cx="200" cy="260" r="3" fill="#34d399" filter="url(#glow)"/>
+  <circle cx="340" cy="290" r="2.5" fill="#f472b6" filter="url(#glow)"/>
+
+  <!-- Right Side Interactive Privacy Shield Artwork -->
+  <g transform="translate(980, 180)" class="floating-shield">
+    <!-- Pulse Rings -->
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#38bdf8" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="45; 110" dur="3s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7; 0" dur="3s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="0" cy="0" r="50" fill="none" stroke="#6366f1" stroke-width="1.5" opacity="0.6">
+      <animate attributeName="r" values="45; 110" dur="3s" begin="1.5s" repeatCount="indefinite" />
+      <animate attributeName="opacity" values="0.7; 0" dur="3s" begin="1.5s" repeatCount="indefinite" />
+    </circle>
+
+    <!-- Outer Tech Orbit -->
+    <circle cx="0" cy="0" r="85" fill="none" stroke="rgba(56, 189, 248, 0.25)" stroke-width="1.5" stroke-dasharray="10 20">
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="20s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="0" cy="0" r="68" fill="none" stroke="rgba(129, 140, 248, 0.3)" stroke-width="1.5" stroke-dasharray="8 12">
+      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="15s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- Central Shield Shape -->
+    <path d="M 0 -45 L 38 -22 C 38 20 22 45 0 58 C -22 45 -38 20 -38 -22 Z" 
+          fill="url(#shieldGrad)" stroke="url(#accentGrad)" stroke-width="2.5" filter="url(#glow)"/>
+    
+    <!-- Lock / Keyhole Icon inside Shield -->
+    <path d="M -10 -2 L -10 -12 C -10 -18 -5 -22 0 -22 C 5 -22 10 -18 10 -12 L 10 -2 Z" 
+          fill="none" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round"/>
+    <rect x="-14" y="-2" width="28" height="22" rx="4" fill="#ffffff" opacity="0.95"/>
+    <circle cx="0" cy="7" r="2.5" fill="#0f172a"/>
+    <path d="M 0 9.5 L 0 15" stroke="#0f172a" stroke-width="2" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography & Brand Content -->
+  <g transform="translate(80, 0)">
+    <!-- Pill Tag -->
+    <g transform="translate(0, 52)">
+      <rect width="260" height="30" rx="15" fill="rgba(99, 102, 241, 0.15)" stroke="rgba(129, 140, 248, 0.4)" stroke-width="1"/>
+      <circle cx="16" cy="15" r="4.5" fill="#10b981">
+        <animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="30" y="19.5" fill="#38bdf8" font-size="12" font-weight="600" letter-spacing="1">CURATED PRIVACY ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="0" y="138" font-size="44" font-weight="800" fill="#ffffff" letter-spacing="-0.5">
+      Awesome <tspan fill="url(#accentGrad)">Privacy Management</tspan>
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="178" font-size="18" font-weight="400" fill="#94a3b8" letter-spacing="0.2">
+      Enterprise SaaS Platforms <tspan fill="#64748b">•</tspan> Open-Source Tools <tspan fill="#64748b">•</tspan> Privacy Engineering &amp; PETs
+    </text>
+
+    <!-- Highlight Feature Badges in Banner -->
+    <g transform="translate(0, 222)">
+      <!-- Item 1: GDPR / CCPA -->
+      <g transform="translate(0, 0)">
+        <rect width="165" height="36" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(56, 189, 248, 0.3)" stroke-width="1"/>
+        <text x="14" y="22.5" fill="#e2e8f0" font-size="13" font-weight="500">🛡️ GDPR • CCPA • CPRA</text>
+      </g>
+      <!-- Item 2: Consent & CMP -->
+      <g transform="translate(180, 0)">
+        <rect width="180" height="36" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(99, 102, 241, 0.3)" stroke-width="1"/>
+        <text x="14" y="22.5" fill="#e2e8f0" font-size="13" font-weight="500">🍪 Consent &amp; Preference</text>
+      </g>
+      <!-- Item 3: DSR / RoPA -->
+      <g transform="translate(375, 0)">
+        <rect width="170" height="36" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(16, 185, 129, 0.3)" stroke-width="1"/>
+        <text x="14" y="22.5" fill="#e2e8f0" font-size="13" font-weight="500">⚡ DSR Automation &amp; RoPA</text>
+      </g>
+      <!-- Item 4: PETs & Differential Privacy -->
+      <g transform="translate(560, 0)">
+        <rect width="185" height="36" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(236, 72, 153, 0.3)" stroke-width="1"/>
+        <text x="14" y="22.5" fill="#e2e8f0" font-size="13" font-weight="500">🔐 Differential Privacy &amp; PETs</text>
+      </g>
+    </g>
+
+    <!-- Bottom Meta Note -->
+    <text x="0" y="295" font-size="13" font-weight="400" fill="#64748b" class="shimmer-text">
+      ✦ Up-to-date pricing, company scales, and open-source star metrics • Updated August 2026
+    </text>
+  </g>
+
+  <!-- Bottom Accent Border -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#accentGrad)"/>
+</svg>
