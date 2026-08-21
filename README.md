@@ -16,7 +16,7 @@ This repository tracks notable **SaaS/hosted platforms** and **open-source proje
 
 
 
-**Examples** include OneTrust, TrustArc, DataGrail, Securiti, Transcend, Osano, BigID, WireWheel, Didomi, and Privado. Modern privacy-management platforms increasingly combine privacy operations with data discovery, automated data mapping, consent orchestration, data-subject-rights automation, and broader data governance. OneTrust, for example, currently positions its platform around privacy automation, consent and preferences, data-use governance, and continuous governance across data and AI. :contentReference[oaicite:0]{index=0}
+**Examples** include OneTrust, TrustArc, DataGrail, Securiti, Transcend, Osano, BigID, WireWheel, Didomi, and Privado. Modern privacy-management platforms increasingly combine privacy operations with data discovery, automated data mapping, consent orchestration, data-subject-rights automation, and broader data governance. OneTrust, for example, currently positions its platform around privacy automation, consent and preferences, data-use governance, and continuous governance across data and AI.
 
 
 
@@ -46,161 +46,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[OneTrust](https://www.onetrust.com/)**  
-
-  Enterprise privacy and governance platform covering privacy operations, data mapping, consent and preferences, data-subject requests, privacy risk assessments, incident management, privacy notices, and broader data governance. :contentReference[oaicite:1]{index=1}
-
-
-
-- **[TrustArc](https://trustarc.com/)**  
-
-  Privacy management platform covering privacy operations, data mapping, risk assessments, consent and preference management, individual rights, compliance workflows, and privacy program management. :contentReference[oaicite:2]{index=2}
-
-
-
-- **[DataGrail](https://www.datagrail.io/)**  
-
-  Privacy platform focused on data discovery, data inventories, privacy requests, consent/preferences, and automated privacy operations across connected business systems.
-
-
-
-- **[Securiti](https://securiti.ai/)**  
-
-  Data privacy, security, and governance platform providing data discovery, classification, data mapping, privacy rights automation, consent management, and governance across enterprise data environments.
-
-
-
-- **[Transcend](https://transcend.io/)**  
-
-  Privacy automation platform focused on data subject requests, consent and preference management, data inventory, privacy workflows, and automating privacy operations across enterprise systems.
-
-
-
-- **[Osano](https://www.osano.com/)**  
-
-  Privacy platform focused on cookie consent, data privacy management, consent management, vendor monitoring, and privacy compliance.
-
-
-
-- **[BigID](https://bigid.com/)**  
-
-  Data intelligence and privacy platform providing data discovery, classification, sensitive-data mapping, privacy management, data lifecycle controls, and data security capabilities.
-
-
-
-- **[WireWheel](https://wirewheel.io/)**  
-
-  Privacy management platform supporting data inventory, data mapping, assessments, consent, individual rights, compliance workflows, and privacy operations.
-
-
-
-- **[Didomi](https://www.didomi.io/)**  
-
-  Consent and preference management platform supporting consent collection, preference centers, privacy experiences, and compliance across websites, applications, and customer channels.
-
-
-
-- **[Privado](https://www.privado.ai/)**  
-
-  Privacy engineering platform focused on discovering personal data in source code, APIs, applications, and cloud environments, helping engineering and privacy teams identify data flows and privacy risks.
-
-
-
-- **[Sovos](https://sovos.com/)**  
-
-  Compliance technology provider with privacy and regulatory compliance capabilities supporting organizations operating across multiple jurisdictions.
-
-
-
-- **[Data Privacy Manager](https://www.dataprivacymanager.com/)**  
-
-  Privacy management solution focused on privacy assessments, records of processing, data mapping, consent, and compliance workflows.
-
-
-
-- **[Ketch](https://www.ketch.com/)**  
-
-  Privacy engineering and data-control platform focused on privacy requests, consent, data rights, policy enforcement, and privacy automation.
-
-
-
-- **[Mine](https://www.saymine.com/)**  
-
-  Privacy platform focused on personal-data discovery, privacy rights, data-subject requests, and helping organizations understand and manage personal-data exposure.
-
-
-
-- **[Ketch One](https://www.ketch.com/)**  
-
-  Privacy infrastructure platform for managing consent, data rights, privacy policies, and data-use controls through programmable privacy workflows.
-
-
-
-- **[Usercentrics](https://usercentrics.com/)**  
-
-  Consent management platform supporting website and app consent, preference management, privacy compliance, and consent-aware data collection.
-
-
-
-- **[Cookiebot by Usercentrics](https://www.cookiebot.com/)**  
-
-  Consent management platform focused on cookie scanning, cookie categorization, consent banners, and privacy compliance.
-
-
-
-- **[CookieYes](https://www.cookieyes.com/)**  
-
-  Consent management platform supporting cookie consent banners, cookie scanning, consent logging, and privacy compliance.
-
-
-
-- **[iubenda](https://www.iubenda.com/)**  
-
-  Privacy compliance platform offering privacy policies, cookie compliance, consent management, terms and conditions, and related compliance tooling.
-
-
-
-- **[Termly](https://termly.io/)**  
-
-  Privacy and compliance platform providing cookie consent management, privacy policies, consent tools, and regulatory compliance resources.
-
-
-
-- **[Complianz](https://complianz.io/)**  
-
-  Privacy and consent management solution particularly focused on cookie consent and privacy compliance for websites and CMS environments.
-
-
-
-- **[Clym](https://www.clym.io/)**  
-
-  Digital compliance platform providing cookie consent, accessibility, privacy notices, data-subject-rights tools, and website compliance capabilities.
-
-
-
-- **[Enzuzo](https://www.enzuzo.com/)**  
-
-  Privacy compliance platform focused on privacy policies, cookie consent, data-subject requests, consent management, and ecommerce privacy workflows.
-
-
-
-- **[Data Privacy Manager](https://www.dataprivacymanager.com/)**  
-
-  Privacy management software for data mapping, privacy assessments, RoPA, consent, and privacy compliance workflows.
-
-
-
-- **[TrustArc Privacy Studio](https://trustarc.com/products/)**  
-
-  TrustArc's privacy operations suite covering consent, preferences, cookie management, individual rights, and privacy program activities. :contentReference[oaicite:3]{index=3}
-
-
-
-- **[OneTrust Privacy Automation](https://www.onetrust.com/solutions/privacy-automation/)**  
-
-  OneTrust's privacy automation layer for operationalizing privacy workflows, assessments, data discovery, privacy risk management, and automated compliance activities. :contentReference[oaicite:4]{index=4}
+| Platform | Core Focus & Capabilities | Pricing (Starting Tier) | Free Tier / Trial Limits |
+| :--- | :--- | :--- | :--- |
+| **[OneTrust](https://www.onetrust.com/)** | Enterprise privacy and governance platform covering privacy operations, data mapping, consent & preferences, DSR automation, risk assessments, and incident management. | Starts at **$10,000/year** (Enterprise packages; modular tools historically from $30–$50/mo per module) | **14-day free trial** upon sales request; free standalone assessment tools (no free forever platform plan) |
+| **[TrustArc](https://trustarc.com/)** | Privacy management platform covering privacy operations, data mapping, risk assessments, consent & preference management, and individual rights. | Starts at **$10,000/year** (Average contract ~$22,000/year) | **30-day free trial** for platform evaluation / Nymity Research access (no free forever plan) |
+| **[DataGrail](https://www.datagrail.io/)** | Privacy platform focused on automated data discovery, data inventories, DSR requests, and consent orchestration across SaaS integrations. | Starts at **$60,000/year** (Mid-market packages; implementation fees ~$15k–$35k) | **Product demo & custom POC trial** on request (no free forever plan) |
+| **[Securiti](https://securiti.ai/)** | Unified data privacy, security, and governance platform providing data discovery, classification, data mapping, and privacy rights automation. | Starts at **$50,000/year** (or ~$4,200/mo; regional starting tiers from ~₹15L/yr) | **Guided proof-of-concept trial** upon sales consultation (no free forever plan) |
+| **[Transcend](https://transcend.io/)** | Privacy automation platform focused on data subject requests (DSR), consent & preference management, and automated data mapping. | Starts at **$10,000/year** (~$833/month) | **14 to 30-day proof-of-concept trial** upon sales request (no free forever plan) |
+| **[Osano](https://www.osano.com/)** | Data privacy platform providing cookie consent banners, DSAR workflow management, vendor risk monitoring, and data mapping. | Starts at **$199/month** (Plus plan, billed annually) | **Free forever plan** (1 domain, 1 user, up to 5,000 monthly visitors); **30-day free trial** for full platform |
+| **[BigID](https://bigid.com/)** | Data intelligence and privacy platform offering automated discovery, classification, sensitive-data mapping, and data lifecycle management. | Starts at **$25,000/year** (Base enterprise deployment) | **Guided evaluation trial** arranged via sales demo / AWS Marketplace (no free forever plan) |
+| **[WireWheel](https://wirewheel.io/)** *(Acquired by Osano)* | Privacy management platform supporting data inventories, RoPA mapping, privacy assessments, and individual rights workflows. | Starts at **$199/month** (via Osano platform integration) | **30-day free trial** via Osano platform (no free forever plan) |
+| **[Didomi](https://www.didomi.io/)** | Multi-regulation consent and preference management platform (CMP) for web, mobile apps, and connected TV. | Starts at **$250/month** (~€250/mo for Essential CMP tier) | **14-day evaluation trial** upon demo request (no free forever plan) |
+| **[Privado](https://www.privado.ai/)** | Privacy engineering platform discovering personal data flows, leaks, and third-party trackers directly in source code and APIs. | Starts at **$250/month** (Web Auditor, billed annually) / $4,200/mo for Developer Platform | **Free forever open-source CLI** on GitHub; 1 free website audit report; custom evaluation trial |
+| **[Sovos](https://sovos.com/)** | Regulatory compliance and tax technology platform with privacy, reporting, and statutory data-governance capabilities. | Starts at **$15,000/year** (~$1,250/month base suite) | **Free sandbox API test accounts** (e.g., TINCheck) & **30-day trial** for select reporting modules (no free forever suite) |
+| **[Data Privacy Manager](https://dataprivacymanager.net/)** | Privacy management software for data mapping, privacy impact assessments (DPIA), RoPA records, and consent workflows. | Starts at **$5,000/year** (~€400/month starter module) | **14-day guided proof-of-concept trial** upon demo request (no free forever plan) |
+| **[Ketch](https://www.ketch.com/)** | Privacy infrastructure platform for programmable consent orchestration, data rights automation, and policy enforcement. | Starts at **$150/month** (Starter plan) | **Free forever plan** (up to 5,000 monthly unique users, 2 integrations, CMP & preference center); **30-day free trial** for paid tiers |
+| **[MineOS](https://mineos.ai/)** | Data privacy and governance platform for continuous data discovery, data classification, and automated DSR handling. | Starts at **$10,000/year** (~$833/month) | **14-day free trial** for automated request handling and data discovery (no free forever commercial plan) |
+| **[Usercentrics](https://usercentrics.com/)** | Enterprise and SMB Consent Management Platform (CMP) for websites and mobile applications. | Starts at **$8/month** (~€7/mo for Essential plan) | **Free forever plan** (1 domain, up to 1,000 sessions/month); **14-day free trial** with full premium features (no credit card required) |
+| **[Cookiebot](https://www.cookiebot.com/)** *(by Usercentrics)* | Automated cookie consent management platform providing deep scanning, categorizations, and compliance banners. | Starts at **$8/month** (~€7/mo for Lite/Small tier) | **Free forever plan** (1 domain, up to 50 subpages); **14-day free trial** of Premium features (no credit card required) |
+| **[CookieYes](https://www.cookieyes.com/)** | Cloud-based cookie consent banner generator, cookie scanner, and consent log manager. | Starts at **$10/month per domain** (Basic plan) | **Free forever plan** (1 domain, up to 5,000 pageviews/month); **14-day free trial** on all paid plans |
+| **[iubenda](https://www.iubenda.com/)** | Legal and privacy compliance suite covering privacy/cookie policies, cookie consent banners, and terms of service. | Starts at **$5.99/month** (Essentials plan) | **Free forever plan** (1 domain, up to 1,000 pageviews/month, 1 language, 3 legal clauses); **14-day free trial** for paid plans |
+| **[Termly](https://termly.io/)** | Compliance suite for privacy policies, cookie consent management, Terms of Service, and DSAR forms. | Starts at **$10/month** (billed annually) / $14/month (Starter plan) | **Free forever plan** (1 website, 1 basic policy, up to 10,000 banner views/month, quarterly scans); 30-day money-back guarantee |
+| **[Complianz](https://complianz.io/)** | Privacy suite and consent management plugin for WordPress and Shopify with automated script blocking and legal documents. | Starts at **$59/year** (~$4.92/month for 1 WordPress site) / $2.99/month on Shopify | **Free forever plugin** (unlimited pageviews & consent logs, scans up to 50 pages); 30-day refund policy on premium licenses |
+| **[Clym](https://www.clym.io/)** | All-in-one digital compliance platform integrating cookie consent, web accessibility, and data subject requests. | Starts at **$49/month** (Start plan) | **14-day free trial** with full platform access (up to 50,000 pageviews during trial, no credit card required) |
+| **[Enzuzo](https://www.enzuzo.com/)** | Data privacy and consent platform for websites and eCommerce stores covering cookie banners, policies, and DSAR workflows. | Starts at **$9/month** ($7/month billed annually for Starter plan) | **Free forever plan** (1 domain, up to 5,000 monthly visitors, 3 DSARs/month, Google Consent Mode v2 support) |
 
 
 
@@ -210,31 +79,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 - **[Klaro!](https://github.com/kiprotect/klaro)**  
 
-  Open-source, privacy-friendly consent management platform for websites. It supports granular consent for third-party applications, multiple consent modes, customization, multilingual interfaces, and GDPR/ePrivacy-oriented workflows. :contentReference[oaicite:5]{index=5}
+  Open-source, privacy-friendly consent management platform for websites. It supports granular consent for third-party applications, multiple consent modes, customization, multilingual interfaces, and GDPR/ePrivacy-oriented workflows.
 
 
 
 - **[Microsoft Consent Package](https://github.com/microsoft/Consent-Package)**  
 
-  Open-source developer-focused consent-management platform sample with granular consent, proxy consent, age-specific flows, revocation, auditability, extensibility, storage adapters, REST APIs, and React components. :contentReference[oaicite:6]{index=6}
+  Open-source developer-focused consent-management platform sample with granular consent, proxy consent, age-specific flows, revocation, auditability, extensibility, storage adapters, REST APIs, and React components.
 
 
 
 - **[ConsentStack](https://github.com/ConsentStack/cmp)**  
 
-  Open-source consent management platform designed as a developer-focused and human-centric CMP for managing website consent and privacy preferences. :contentReference[oaicite:7]{index=7}
+  Open-source consent management platform designed as a developer-focused and human-centric CMP for managing website consent and privacy preferences.
 
 
 
 - **[Profile & Consent Manager (PCM)](https://github.com/Sympol/pcm)**  
 
-  Open-source identity, profile, consent, preference, and segmentation platform designed around privacy-by-design principles. It provides an immutable consent ledger, privacy-oriented data handling, encryption, and modular domain architecture. :contentReference[oaicite:8]{index=8}
+  Open-source identity, profile, consent, preference, and segmentation platform designed around privacy-by-design principles. It provides an immutable consent ledger, privacy-oriented data handling, encryption, and modular domain architecture.
 
 
 
 - **[Pryv](https://github.com/pryv)**  
 
-  Open-source privacy-oriented personal-data infrastructure providing data sovereignty, consent, access scoping, auditability, and self-hosted data management. :contentReference[oaicite:9]{index=9}
+  Open-source privacy-oriented personal-data infrastructure providing data sovereignty, consent, access scoping, auditability, and self-hosted data management.
 
 
 
@@ -452,11 +321,11 @@ For enterprise data governance:
 
 
 
-One particularly interesting current open-source project is Microsoft's **Consent Package**, which explicitly provides granular consent, revocation, audit trails, policy management, REST APIs, storage adapters, and React components. :contentReference[oaicite:10]{index=10}
+One particularly interesting current open-source project is Microsoft's **Consent Package**, which explicitly provides granular consent, revocation, audit trails, policy management, REST APIs, storage adapters, and React components.
 
 
 
-**Klaro!** is another mature open-source option specifically targeting website consent management, with granular consent, customization, multilingual support, and GDPR/ePrivacy-oriented functionality. :contentReference[oaicite:11]{index=11}
+**Klaro!** is another mature open-source option specifically targeting website consent management, with granular consent, customization, multilingual support, and GDPR/ePrivacy-oriented functionality.
 
 
 
