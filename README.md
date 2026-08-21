@@ -82,7 +82,7 @@ A comprehensive collection of open-source privacy management platforms, privacy-
 
 **Sorted in descending order by GitHub Stars ⭐ (highest to lowest)**.
 
-| Rank | Project / Repository | Stars | Category / Description |
+| Rank | Project / Repository | Github_Stars | Category / Description |
 | :---: | :--- | :---: | :--- |
 | 1 | **[Nextcloud](https://github.com/nextcloud/server)** | [![GitHub stars](https://img.shields.io/github/stars/nextcloud/server?style=social&color=white)](https://github.com/nextcloud/server/stargazers) | 🏢 **Data Sovereignty & Self-Hosted Infrastructure**<br>Self-hosted productivity platform providing full data sovereignty, end-to-end encryption, and compliance controls. |
 | 2 | **[Keycloak](https://github.com/keycloak/keycloak)** | [![GitHub stars](https://img.shields.io/github/stars/keycloak/keycloak?style=social&color=white)](https://github.com/keycloak/keycloak/stargazers) | 🔑 **Identity & Access Management**<br>Open-source IAM platform providing authentication, authorization, single sign-on (SSO), and consent-driven user flows. |
